@@ -30,3 +30,29 @@ The process involves five main activities:
 - **Requirement Documentation** – Writing requirements in structured formats such as user stories, use cases, or specification documents.  
 - **Requirement Analysis and Modeling** – Prioritizing requirements, checking feasibility, and creating visual models (e.g., data flow diagrams).  
 - **Requirement Validation** – Reviewing with stakeholders, setting acceptance criteria, and ensuring traceability.  
+
+## 4. Types of Requirements
+
+### 4.1 Functional Requirements ⚙️
+Functional requirements describe **what the system should do** — the features and behaviors expected.  
+
+**Examples for Booking Management System:**  
+- Users can **search properties** based on location, price, and availability.  
+- New users can **register** and create accounts with login credentials.  
+- Display **property listings** with details and images.  
+- Users can **book properties**, view bookings, and manage reservations.  
+- Secure **user authentication** for login and registration.  
+
+---
+
+### 4.2 Non-functional Requirements 🛡️
+Non-functional requirements describe **how the system should perform** — quality attributes like performance, security, or scalability.  
+
+**Examples for Booking Management System:**  
+- **Performance:** Pages should load within **2 seconds** and handle up to **1000 concurrent users**.  
+- **Security:** All data must be **encrypted**; protect against common vulnerabilities.  
+- **Scalability:** The system should **scale horizontally** to handle increasing traffic.  
+- **Usability:** Provide an **intuitive interface** for easy navigation.  
+- **Reliability:** Ensure **99.9% uptime** with quick recovery from failures. 
+
+
