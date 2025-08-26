@@ -77,4 +77,29 @@ The diagram below illustrates how different actors (e.g., Guest, Admin) interact
 ![Use Case Diagram](./alx-booking-uc.png)
 
 
+## Acceptance Criteria  
+
+Acceptance Criteria are the conditions that a software product must meet to be accepted by the client or end users.  
+They serve as a **bridge between requirements and testing**, ensuring that all features are implemented correctly and behave as expected.  
+
+### Importance of Acceptance Criteria
+- Defines the boundaries of a user story or requirement.  
+- Provides a clear, testable checklist for developers and QA teams.  
+- Reduces misunderstandings between stakeholders, developers, and testers.  
+- Ensures the system meets business goals before delivery.  
+
+### Example: Checkout Feature in Booking Management System  
+
+**User Story:**  
+_As a customer, I want to checkout after booking so that I can complete my reservation securely._  
+
+**Acceptance Criteria:**  
+1. The system should allow users to view a summary of their booking before confirming checkout.  
+2. Users must be able to select a payment method (credit card, PayPal, etc.).  
+3. The checkout must validate payment details before processing.  
+4. A confirmation message and booking reference number should be displayed after successful checkout.  
+5. An email confirmation should be sent to the user’s registered email.  
+
+
+
 
